@@ -7,7 +7,8 @@ and charts behind the accompanying nine-slide presentation.
 ## Project files
 
 - `Wealth_Longevity_Carbon_Concise.ipynb` — analysis notebook
-- `worlddata.csv` — data used by the notebook
+- `worlddata.csv` — required data file; excluded from Git because it exceeds
+  GitHub's 100 MB file limit
 - `Wealth_Longevity_Carbon_Concise.pptx` — companion presentation
 - `requirements.txt` — Python packages needed to run the notebook
 
@@ -50,6 +51,10 @@ You need Python 3.10 or newer and Git.
    **Run → Run All Cells**. Run it from the cloned project directory so the
    notebook can find `worlddata.csv`.
 
+The data file is not included in the repository. Get `worlddata.csv` from the
+project owner and place it in the project directory beside the notebook before
+running it. A download link can be added here when available.
+
 The notebook saves charts and analysis tables under
 `outputs/concise_analysis/`. These files are generated when you run the
 notebook.
@@ -61,4 +66,4 @@ is not guaranteed across different Python, library, or platform versions.
 ## Run in Google Colab
 
 Upload the notebook to Colab and run all cells. When prompted, upload
-`worlddata.csv`.
+`worlddata.csv`; obtain the file from the project owner first.
